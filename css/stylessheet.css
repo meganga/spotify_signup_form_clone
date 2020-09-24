@@ -1,0 +1,44 @@
+body {
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+.head {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.signUpHeading {
+  margin: 30px;
+}
+
+.signupWithFacebook {
+  margin-bottom: 30px;
+  width: 500px;
+  height: 45px;
+  border-radius: 25px;
+  border: none;
+  background-color: rgb(58, 88, 151);
+  color: #ffffff;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.signupWithFacebook:hover {
+  cursor: pointer;
+  font-size: 14px;
+  background-color: rgb(107, 130, 177);
+}
+
+.link {
+  color: rgb(29, 185, 84);
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+}
+
+.link:hover {
+  color: rgb(87, 240, 141);
+}
