@@ -1,7 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: spotify-circular, Helvetica, Arial, sans-serif;
 }
 
+/* Styling for header statrs here */
 .head {
   margin-top: 40px;
   display: flex;
@@ -16,7 +21,7 @@ body {
 
 .signupWithFacebook {
   margin-bottom: 30px;
-  width: 500px;
+  width: 450px;
   height: 45px;
   border-radius: 25px;
   border: none;
@@ -41,4 +46,60 @@ body {
 
 .link:hover {
   color: rgb(87, 240, 141);
+}
+
+/* Sytling for header part ends here */
+
+/* Styling for main part starts here */
+.userSignupForm {
+  /* margin-left: 500px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.label {
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  margin-bottom: 8px;
+  margin-top: 30px;
+}
+
+.emailText {
+  margin-top: 10px;
+}
+
+.input {
+  letter-spacing: 0.5px;
+  padding: 13px;
+  width: 400px;
+  border-radius: 5px;
+  border: 1px solid rgb(189, 189, 189);
+}
+
+span {
+  text-align: left;
+  font-size: 13px;
+}
+/* date input styling starts here */
+.dateInput {
+  display: flex;
+  flex-direction: row-reverse;
+  /* margin: 0; */
+}
+
+.dateOfMonthInput {
+  width: 25%;
+  height: 30px;
+}
+
+.monthSelect {
+  width: 45%;
+}
+
+.yearInput {
+  width: 30%;
+  height: 30px;
 }
