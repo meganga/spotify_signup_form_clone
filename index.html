@@ -64,45 +64,87 @@
       </div>
       <div><p class="separation">or</p></div>
     </header>
+    <!-- Header part ends here -->
+    <!-- main part of the html starts here -->
     <main class="main_section">
-      <h3 class="emailSignupHeading">Sign up with your email address</h3>
+      <form action="" class="userSignupForm">
+        <h3 class="emailSignupHeading">Sign up with your email address</h3>
 
-      <label for="email" class="label emailText">What's your email?</label>
-      <input
-        type="email"
-        name="email"
-        class="input userEmail"
-        placeholder="Enter your email."
-      />
+        <label for="email" class="label emailText">What's your email?</label>
+        <input
+          type="email"
+          name="email"
+          class="input userEmail"
+          placeholder="Enter your email."
+        />
 
-      <label for="confirmEmail" class="label confirmEmailText"
-        >Confirm your email?</label
-      >
-      <input
-        type="email"
-        name="confirmEmail"
-        class="input confirmUserEmail"
-        placeholder="Enter your email again."
-      />
+        <label for="confirmEmail" class="label confirmEmailText"
+          >Confirm your email?</label
+        >
+        <input
+          type="email"
+          name="confirmEmail"
+          class="input confirmUserEmail"
+          placeholder="Enter your email again."
+        />
 
-      <label for="pswd" class="label password">Create a password</label>
-      <input
-        type="password"
-        name="pswd"
-        class="input password"
-        placeholder="Create a password."
-      />
+        <label for="pswd" class="label password">Create a password</label>
+        <input
+          type="password"
+          name="pswd"
+          class="input password"
+          placeholder="Create a password."
+        />
 
-      <label for="name" class="label profileName"
-        >What should we call you?</label
-      >
-      <input
-        type="text"
-        name="name"
-        class="input profileName"
-        placeholder="Enter a profile name."
-      />
-      <span>This appears on your profile.s</span>
+        <label for="name" class="label profileName"
+          >What should we call you?</label
+        >
+        <input
+          type="text"
+          name="name"
+          class="input profileName"
+          placeholder="Enter a profile name."
+        />
+        <span>This appears on your profile.</span>
+        <label for="dateOfBirth" class="label profileName"
+          >What's your date of birth?</label
+        >
+        <div class="dateInput">
+          <div>
+            <label for="dateOfMonth" class="dateOfMonthLabel">Day</label><br />
+            <input
+              type="number"
+              name="dateOfMonth"
+              class="dateOfMonthInput"
+              placeholder="DD"
+            />
+          </div>
+          <label for="birthMonth" class="monthLabel">Month</label>
+          <select name="birthMonth" id="" class="monthSelect">
+            <option value="Januaray" class="monthValues">Januaray</option>
+            <option value="Febuaray" class="monthValues">Febuaray</option>
+            <option value="March" class="monthValues">March</option>
+            <option value="April" class="monthValues">April</option>
+            <option value="May" class="monthValues">May</option>
+            <option value="June" class="monthValues">June</option>
+            <option value="July" class="monthValues">July</option>
+            <option value="August" class="monthValues">August</option>
+            <option value="September" class="monthValues">September</option>
+            <option value="October" class="monthValues">October</option>
+            <option value="November" class="monthValues">Novermber</option>
+            <option value="December" class="monthValues">December</option>
+          </select>
+        </div>
+        <div>
+          <label for="dateOfMonth" class="yearLabel">Year</label><br />
+          <input
+            type="number"
+            name="dateOfMonth"
+            class="yearInput"
+            placeholder="YYYY"
+          />
+        </div>
+      </form>
     </main>
   </body>
 </html>
