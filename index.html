@@ -9,35 +9,31 @@
   <body>
     <!-- Start of Header -->
     <header class="head">
-      <div>
-        <a
-          href="https://www.spotify.com/ca-en/"
-          class="linkToSpotifyWebsite"
-          target="_blank"
-        >
-          <img
-            src="images/spotify_img.jpg"
-            alt="Spotify logo image"
-            class="logo_img"
-            width="150px"
-            height="80px"
-          />
-        </a>
-      </div>
-      <div>
-        <h1 class="signUpHeading">Sign up for free to start listening.</h1>
-      </div>
-      <div>
-        <a
-          href="https://www.facebook.com/"
-          class="linkToFacebook"
-          target="_blank"
-        >
-          <button class="signupWithFacebook" type="button">
-            SIGN UP WITH FACEBOOK
-          </button>
-        </a>
-      </div>
+      <a
+        href="https://www.spotify.com/ca-en/"
+        class="linkToSpotifyWebsite"
+        target="_blank"
+      >
+        <img
+          src="images/spotify_img.jpg"
+          alt="Spotify logo image"
+          class="logo_img"
+          width="150px"
+          height="80px"
+        />
+      </a>
+
+      <h1 class="signUpHeading">Sign up for free to start listening.</h1>
+
+      <a
+        href="https://www.facebook.com/"
+        class="linkToFacebook"
+        target="_blank"
+      >
+        <button class="signupWithFacebook" type="button">
+          SIGN UP WITH FACEBOOK
+        </button>
+      </a>
       <div>
         <input
           type="checkbox"
@@ -68,5 +64,45 @@
       </div>
       <div><p class="separation">or</p></div>
     </header>
+    <main class="main_section">
+      <h3 class="emailSignupHeading">Sign up with your email address</h3>
+
+      <label for="email" class="label emailText">What's your email?</label>
+      <input
+        type="email"
+        name="email"
+        class="input userEmail"
+        placeholder="Enter your email."
+      />
+
+      <label for="confirmEmail" class="label confirmEmailText"
+        >Confirm your email?</label
+      >
+      <input
+        type="email"
+        name="confirmEmail"
+        class="input confirmUserEmail"
+        placeholder="Enter your email again."
+      />
+
+      <label for="pswd" class="label password">Create a password</label>
+      <input
+        type="password"
+        name="pswd"
+        class="input password"
+        placeholder="Create a password."
+      />
+
+      <label for="name" class="label profileName"
+        >What should we call you?</label
+      >
+      <input
+        type="text"
+        name="name"
+        class="input profileName"
+        placeholder="Enter a profile name."
+      />
+      <span>This appears on your profile.s</span>
+    </main>
   </body>
 </html>
