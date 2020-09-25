@@ -149,14 +149,3 @@ span {
   font-size: 14px;
   background-color: rgb(82, 204, 124);
 }
-
-.link {
-  color: rgb(29, 185, 84);
-  font-size: 13px;
-  letter-spacing: 0.5px;
-  word-spacing: 1px;
-}
-
-.link:hover {
-  color: rgb(87, 240, 141);
-}
