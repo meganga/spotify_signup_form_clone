@@ -109,42 +109,153 @@
         <label for="dateOfBirth" class="label profileName"
           >What's your date of birth?</label
         >
+        <!-- ******************** DATE INPPUT STARTS**************************** -->
         <div class="dateInput">
-          <div>
-            <label for="dateOfMonth" class="dateOfMonthLabel">Day</label><br />
-            <input
-              type="number"
-              name="dateOfMonth"
-              class="dateOfMonthInput"
-              placeholder="DD"
-            />
-          </div>
-          <label for="birthMonth" class="monthLabel">Month</label>
-          <select name="birthMonth" id="" class="monthSelect">
-            <option value="Januaray" class="monthValues">Januaray</option>
-            <option value="Febuaray" class="monthValues">Febuaray</option>
-            <option value="March" class="monthValues">March</option>
-            <option value="April" class="monthValues">April</option>
-            <option value="May" class="monthValues">May</option>
-            <option value="June" class="monthValues">June</option>
-            <option value="July" class="monthValues">July</option>
-            <option value="August" class="monthValues">August</option>
-            <option value="September" class="monthValues">September</option>
-            <option value="October" class="monthValues">October</option>
-            <option value="November" class="monthValues">Novermber</option>
-            <option value="December" class="monthValues">December</option>
-          </select>
+          <table class="dateOfBirthTable">
+            <tr>
+              <td>
+                <label for="dateOfMonth" class="date OfMonthLabel">Day</label>
+              </td>
+              <td class="dateTableHeading">
+                <label for="birthMonth" class="date monthLabel">Month</label>
+              </td>
+              <td>
+                <label for="dateOfMonth" class="date yearLabel">Year</label>
+              </td>
+            </tr>
+            <tr>
+              <td class="dateTableData">
+                <input
+                  type="number"
+                  name="dateOfMonth"
+                  class="dateOfMonthInput"
+                  placeholder="DD"
+                />
+              </td>
+              <td>
+                <select name="birthMonth" id="" class="monthSelect">
+                  <option value="none" class="monthValues" selected>
+                    Month
+                  </option>
+                  <option value="Januaray" class="monthValues">Januaray</option>
+                  <option value="Febuaray" class="monthValues">Febuaray</option>
+                  <option value="March" class="monthValues">March</option>
+                  <option value="April" class="monthValues">April</option>
+                  <option value="May" class="monthValues">May</option>
+                  <option value="June" class="monthValues">June</option>
+                  <option value="July" class="monthValues">July</option>
+                  <option value="August" class="monthValues">August</option>
+                  <option value="September" class="monthValues">
+                    September
+                  </option>
+                  <option value="October" class="monthValues">October</option>
+                  <option value="November" class="monthValues">
+                    Novermber
+                  </option>
+                  <option value="December" class="monthValues">December</option>
+                </select>
+              </td>
+              <td>
+                <input
+                  type="number"
+                  name="dateOfMonth"
+                  class="yearInput"
+                  placeholder="YYYY"
+                />
+              </td>
+            </tr>
+          </table>
         </div>
-        <div>
-          <label for="dateOfMonth" class="yearLabel">Year</label><br />
-          <input
-            type="number"
-            name="dateOfMonth"
-            class="yearInput"
-            placeholder="YYYY"
-          />
-        </div>
+        <!-- ******************** DATE INPPUT ENDS***************************** -->
+        <label for="gender" class="label genderQuestion"
+          >What's your gender?</label
+        >
+        <table name="gender" class="genderTable">
+          <tr>
+            <td>
+              <nobr
+                ><input
+                  type="radio"
+                  class="genderMaleInput"
+                  name="genderMale"
+                />
+                <label for="genderMale" class="gender Male">Male</label></nobr
+              >
+            </td>
+            <td>
+              <nobr
+                ><input type="radio" class="genderFemale" name="genderFemale" />
+                <label for="genderFemale" class="gender Female"
+                  >Female</label
+                ></nobr
+              >
+            </td>
+            <td>
+              <nobr
+                ><input
+                  type="radio"
+                  class="genderNon-binary"
+                  name="genderNon-binary"
+                />
+                <label for="" class="gender Non-binary">Non-binary</label></nobr
+              >
+            </td>
+          </tr>
+        </table>
       </form>
+      <p class="e-mailSubscription">
+        We may send you emails with news or promotions occasionally. Go<br />
+        to your Email notifications page to control the messages we send.
+      </p>
+      <div>
+        <input
+          type="checkbox"
+          name="subscription"
+          class="subscriptionCheckbox"
+        />
+        <label for="subscription" class="subscriptionCheckboxLabel"
+          >Share my registration data with Spotify's content providers<br />
+          &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;for marketing purposes.</label
+        >
+      </div>
+      <br />
+      <div>
+        <input
+          type="checkbox"
+          name="termsAndConditions"
+          class="checkboxForTermsAndConditions"
+        />
+
+        <label for="termsAndConditions" class="termsAndConditions"
+          >I agree to the
+
+          <a
+            href="https://www.spotify.com/ca-en/legal/end-user-agreement/"
+            class="link TermsAndConditions"
+            target="_blank"
+            >Spotify terms and conditions</a
+          >
+
+          and
+
+          <a
+            href="https://www.spotify.com/ca-en/legal/privacy-policy/"
+            class="link PrivacyPolicy"
+            target="_blank"
+            >Privacy Policy</a
+          >
+          .
+        </label>
+      </div>
+      <br /><br />
+      <button class="manualSignup" type="button">SIGN UP</button>
+      <span
+        >Have an account?<a
+          href="https://accounts.spotify.com/en/login?continue=https:%2F%2Fwww.spotify.com%2Faccount%2Foverview%2F&_ga=2.71272976.1204709098.1600920893-333822183.1600920893"
+          class="link"
+          >Log in</a
+        >.</span
+      >
     </main>
   </body>
 </html>
