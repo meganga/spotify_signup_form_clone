@@ -149,3 +149,12 @@ span {
   font-size: 14px;
   background-color: rgb(82, 204, 124);
 }
+
+.subscription_container {
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.termsAndConditionsContainer {
+  margin-bottom: 30px;
+}
