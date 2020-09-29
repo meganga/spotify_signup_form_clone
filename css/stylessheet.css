@@ -1,14 +1,20 @@
-* {
+html {
   box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
 body {
   font-family: spotify-circular, Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 13px;
   letter-spacing: 0.5px;
 }
 
-/* Styling for header statrs here */
+/* ************* Styling for header statrs here ************* */
 .head {
   margin-top: 40px;
   display: flex;
@@ -56,9 +62,7 @@ body {
   align-items: center;
 }
 
-/* Sytling for header part ends here */
-
-/* Styling for main part starts here */
+/*  ************* Styling for main part starts here ************* */
 
 .userSignupForm {
   display: flex;
@@ -94,7 +98,7 @@ span {
   font-size: 14px;
 }
 
-/*********** date input styling starts here *****************/
+/* ************* date input styling starts here ************* */
 
 .dateOfBirthTable {
   border-spacing: 5px;
@@ -104,15 +108,24 @@ span {
 
 .dateOfMonthInput {
   height: 40px;
+  width: 90px;
+  border-radius: 5px;
+  border: 1px solid rgb(189, 189, 189);
 }
 
 .monthSelect {
   height: 40px;
   color: rgb(126, 122, 122);
+  width: 180px;
+  border-radius: 5px;
+  border: 1px solid rgb(189, 189, 189);
 }
 
 .yearInput {
   height: 40px;
+  width: 110px;
+  border-radius: 5px;
+  border: 1px solid rgb(189, 189, 189);
 }
 
 .gender {
@@ -127,9 +140,10 @@ span {
 }
 
 .e-mailSubscription {
-  font-size: 14px;
+  font-size: 13px;
   letter-spacing: 0.5px;
   line-height: 1.6em;
+  margin-top: 25px;
 }
 
 .manualSignup {
@@ -153,6 +167,7 @@ span {
 .subscription_container {
   margin-bottom: 30px;
   margin-top: 20px;
+  margin-right: 30px;
 }
 
 .termsAndConditionsContainer {
