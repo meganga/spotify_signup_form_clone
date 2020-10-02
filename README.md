@@ -40,10 +40,10 @@ The project is created with:
 
 ### Github Pages
 
- - Access the page here:
+ - **Access the page here**:
 	 - https://meganga.github.io/portfolio_using_html_css/
-- Spotify's Sign-up form:
+- **Spotify's Sign-up form**:
 	- https://www.spotify.com/ca-en/signup/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzODEwODgxNywtNjM1MTI5NTM5XX0=
+eyJoaXN0b3J5IjpbNjI5NTA0MzM3LC02MzUxMjk1MzldfQ==
 -->
