@@ -3,7 +3,7 @@
 # Cloning Spotify Sign-Up form.
 
 Learning practice:
-Tried to clone the sign-up for of spotify(ca) using html and css only.
+Tried to clone the sign-up form of Spotify(Canadian version) using html and css only.
 
 ## Technologies Used:
 The project is created with
@@ -45,5 +45,5 @@ The project is created with
 - Spotify's Sign-up form:
 	- https://www.spotify.com/ca-en/signup/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NTkwNjYwNywtNjM1MTI5NTM5XX0=
+eyJoaXN0b3J5IjpbLTE0MDI0NjA0MjEsLTYzNTEyOTUzOV19
 -->
