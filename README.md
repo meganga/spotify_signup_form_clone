@@ -41,9 +41,9 @@ The project is created with:
 ### Github Pages
 
  - **Access the page here**:
-	 - https://meganga.github.io/portfolio_using_html_css/
+	 -https://meganga.github.io/resume_in_html_form/
 - **Spotify's Sign-up form**:
 	- https://www.spotify.com/ca-en/signup/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI5NTA0MzM3LC02MzUxMjk1MzldfQ==
+eyJoaXN0b3J5IjpbMTcyNzEzMjA2LC02MzUxMjk1MzldfQ==
 -->
