@@ -2,7 +2,8 @@
 
 # Cloning Spotify Sign-Up form.
 
-Tried to clone the sign-up for of spotify
+Learning practice:
+Tried to clone the sign-up for of spotify(ca) using html and css only.
 
 ## Technologies Used:
 The project is created with
@@ -21,13 +22,6 @@ The project is created with
  - Stackedit:
 	 - To write and maintain the README.md file.
 		 - https://stackedit.io
-
-## Design Technologies used:
-
- - Vecter:     
-	 -   To design the various sections of the web page.
-			- https://vectr.com/
-
 
 ## Launch
  
@@ -48,6 +42,8 @@ The project is created with
 
  - Access the page here:
 	 - https://meganga.github.io/portfolio_using_html_css/
+- Spotify's Sign-up form:
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNzQ3NDg5NywtNjM1MTI5NTM5XX0=
+eyJoaXN0b3J5IjpbMzEyOTk4Njk5LC02MzUxMjk1MzldfQ==
 -->
