@@ -8,33 +8,33 @@ Tried to clone the sign-up form of Spotify(Canadian version) using html and css 
 ## Technologies Used:
 The project is created with:
 
- - HTML 5
- - CSS 4
+ - **HTML 5**
+ - **CSS 4**
 
 ## Applications/resources used :
 
- - Visual Studio: 
+ - **Visual Studio**: 
 	 - To write all the HTML and the CSS code.
 		  
  - Pakages used:	 
-	 -  Prettier: To take care of the indentation and maintaining the structure of the code.
-	 - open in browse: To open file in a browse more easily.
- - Stackedit:
+	 -  **Prettier**: To take care of the indentation and maintaining the structure of the code.
+	 - **open in brows**e: To open file in a browse more easily.
+ - **Stackedit**:
 	 - To write and maintain the README.md file.
 		 - https://stackedit.io
 
 ## Launch
  
 
- - Edge 
+ - **Edge** 
 	 - Jul 2015 release above.
- - Firefox 
+ - **Firefox** 
 	 - Mar 2014 release and above.
- - Chrome 
+ - **Chrome** 
 	 - Jul 2013 release and above.
-- Safari
+- **Safari**
 	- Sept 2015 release and above.
-- Opera
+- **Opera**
 	- Oct 2013 release and above.
 
 
@@ -45,5 +45,5 @@ The project is created with:
 - Spotify's Sign-up form:
 	- https://www.spotify.com/ca-en/signup/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg1NTYxNDI1LC02MzUxMjk1MzldfQ==
+eyJoaXN0b3J5IjpbMTUzODEwODgxNywtNjM1MTI5NTM5XX0=
 -->
