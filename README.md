@@ -43,7 +43,7 @@ The project is created with
  - Access the page here:
 	 - https://meganga.github.io/portfolio_using_html_css/
 - Spotify's Sign-up form:
-	- 
+	- https://www.spotify.com/ca-en/signup/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEyOTk4Njk5LC02MzUxMjk1MzldfQ==
+eyJoaXN0b3J5IjpbLTU3NTkwNjYwNywtNjM1MTI5NTM5XX0=
 -->
